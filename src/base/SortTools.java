@@ -4,20 +4,20 @@ import java.util.Random;
 import java.util.stream.IntStream;
 
 public class SortTools {
-    public static Integer[] createSequenceInc(int n) {
-        return IntStream.range(1, n + 1).boxed().toArray(Integer[]::new);
+    public static int[] createSequenceInc(int n) {
+        return IntStream.range(1, n + 1).toArray();
     }
 
-    public static Integer[] createSequenceDec(int n) {
-        return IntStream.range(0, n).map(i -> n - i + 1 - 1).boxed().toArray(Integer[]::new);
+    public static int[] createSequenceDec(int n) {
+        return IntStream.range(0, n).map(i -> n - i + 1 - 1).toArray();
     }
 
-    public static Integer[] createSequenceRand(int n) {
-        return new Random().ints(n, 1, n).boxed().toArray(Integer[]::new);
+    public static int[] createSequenceRand(int n) {
+        return new Random().ints(n, 1, n).toArray();
     }
 
-    public static Integer[] createSequenceAlt(int n) {
-        return IntStream.range(1, n + 1).map(i -> i % 2 != 0 ? 1 : 2).boxed().toArray(Integer[]::new);
+    public static int[] createSequenceAlt(int n) {
+        return IntStream.range(1, n + 1).map(i -> i % 2 != 0 ? 1 : 2).toArray();
     }
 
     public static int linSearch(int[] A, int x) {
