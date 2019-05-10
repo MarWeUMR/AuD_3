@@ -46,7 +46,91 @@ public class Main {
                 }
             }
         }
+/*
+*
+* Array Size: 100000
+Searching for number inside Array...
+Algorithm: linear
+Time: 37194300 ns (3,72e-02 s)
 
+Algorithm: bin
+Time: 899300 ns (8,99e-04 s)
+
+Algorithm: binNew
+Time: 872700 ns (8,73e-04 s)
+
+Searching for number outside Array...
+Algorithm: linear
+Time: 42170500 ns (4,22e-02 s)
+
+Algorithm: bin
+Time: 880800 ns (8,81e-04 s)
+
+Algorithm: binNew
+Time: 516800 ns (5,17e-04 s)
+
+Array Size: 1000000
+Searching for number inside Array...
+Algorithm: linear
+Time: 197240000 ns (1,97e-01 s)
+
+Algorithm: bin
+Time: 630800 ns (6,31e-04 s)
+
+Algorithm: binNew
+Time: 759000 ns (7,59e-04 s)
+
+Searching for number outside Array...
+Algorithm: linear
+Time: 345578100 ns (3,46e-01 s)
+
+Algorithm: bin
+Time: 98600 ns (9,86e-05 s)
+
+Algorithm: binNew
+Time: 111300 ns (1,11e-04 s)
+
+Array Size: 100000000
+Searching for number inside Array...
+Algorithm: linear
+Time: 21218806200 ns (2,12e+01 s)
+
+Algorithm: bin
+Time: 1327500 ns (1,33e-03 s)
+
+Algorithm: binNew
+Time: 1144500 ns (1,14e-03 s)
+
+Searching for number outside Array...
+Algorithm: linear
+Time: 44677472100 ns (4,47e+01 s)
+
+Algorithm: bin
+Time: 239500 ns (2,40e-04 s)
+
+Algorithm: binNew
+Time: 205700 ns (2,06e-04 s)
+
+Array Size: 685154321
+Searching for number inside Array...
+Algorithm: linear
+Time: 187932996900 ns (1,88e+02 s)
+
+Algorithm: bin
+Time: 2509800 ns (2,51e-03 s)
+
+Algorithm: binNew
+Time: 2231300 ns (2,23e-03 s)
+
+Searching for number outside Array...
+Algorithm: linear
+Time: 346991543800 ns (3,47e+02 s)
+
+Algorithm: bin
+Time: 157300 ns (1,57e-04 s)
+
+Algorithm: binNew
+Time: 139000 ns (1,39e-04 s)*/
 
     }
 }
