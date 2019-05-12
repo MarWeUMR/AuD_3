@@ -33,7 +33,7 @@ public class SortTools {
 
     public static int binSearch(int[] A, int x, int l, int r) {
 
-        int q = (r - l + 1) / 2 + l; // mitte
+        int q = (l+r) >>> 1; // mitte
 
         // Treffer
         if (A[q] == x) {
